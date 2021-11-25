@@ -77,7 +77,7 @@
             </image>
             <text jcr:primaryType="nt:unstructured">
                 <policy_641562756958017
-                    jcr:lastModified="{Date}2021-11-22T11:29:34.505+05:30"
+                    jcr:lastModified="{Date}2021-11-25T18:54:29.892+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Content Text"
@@ -86,7 +86,7 @@
                     <rtePlugins jcr:primaryType="nt:unstructured">
                         <paraformat
                             jcr:primaryType="nt:unstructured"
-                            features="-">
+                            features="*">
                             <formats
                                 jcr:primaryType="nt:unstructured"
                                 override="true">
@@ -164,7 +164,146 @@
                             jcr:primaryType="nt:unstructured"
                             features="-"/>
                     </rtePlugins>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-text--quote"
+                                    cq:styleId="1637771335581"
+                                    cq:styleLabel="Quote Block"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy_641562756958017>
+                <policy_8437984934808
+                    jcr:lastModified="{Date}2021-11-23T13:18:46.332+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Content Text"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <rtePlugins jcr:primaryType="nt:unstructured">
+                        <paraformat
+                            jcr:primaryType="nt:unstructured"
+                            features="*">
+                            <formats
+                                jcr:primaryType="nt:unstructured"
+                                override="true">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Paragraph"
+                                    tag="p"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 1"
+                                    tag="h1"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 2"
+                                    tag="h2"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 3"
+                                    tag="h3"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 4"
+                                    tag="h4"/>
+                                <item5
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 5"
+                                    tag="h5"/>
+                                <item6
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Heading 6"
+                                    tag="h6"/>
+                                <item7
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Quote"
+                                    tag="blockquote"/>
+                                <item8
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Horizontal Rule (visual line break)"
+                                    tag="hr"/>
+                                <item9
+                                    jcr:primaryType="nt:unstructured"
+                                    description="Preformatted"
+                                    tag="pre"/>
+                            </formats>
+                        </paraformat>
+                        <misctools
+                            jcr:primaryType="nt:unstructured"
+                            features="-">
+                            <specialCharsConfig jcr:primaryType="nt:unstructured">
+                                <chars
+                                    jcr:primaryType="nt:unstructured"
+                                    override="true">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;copy;"
+                                        name="copyright"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;euro;"
+                                        name="euro"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;reg;"
+                                        name="registered"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        entity="&amp;trade;"
+                                        name="trademark"/>
+                                </chars>
+                            </specialCharsConfig>
+                        </misctools>
+                        <edit
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <findreplace
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <undo
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <spellcheck
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <image
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <table
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <lists
+                            jcr:primaryType="nt:unstructured"
+                            features="*"/>
+                        <justify
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                        <format
+                            jcr:primaryType="nt:unstructured"
+                            features="bold,italic"/>
+                        <links
+                            jcr:primaryType="nt:unstructured"
+                            features="modifylink,unlink"/>
+                        <subsuperscript
+                            jcr:primaryType="nt:unstructured"
+                            features="-"/>
+                    </rtePlugins>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-text--quote"
+                                    cq:styleId="1637653670747"
+                                    cq:styleLabel="Quote Block"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_8437984934808>
             </text>
             <title jcr:primaryType="nt:unstructured">
                 <policy_641475696923109
@@ -187,6 +326,50 @@
                     type="h2">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_641528232375303>
+                <policy_4005211481452
+                    jcr:lastModified="{Date}2021-11-23T12:45:12.080+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="MPGI Title"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                    linkDisabled="false"
+                    type="h1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-title--underline"
+                                    cq:styleId="1637651460353"
+                                    cq:styleLabel="Underline"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_4005211481452>
+                <policy_28755684576960
+                    jcr:lastModified="{Date}2021-11-24T21:59:54.400+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="New Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                    linkDisabled="false"
+                    type="h1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-title--underline"
+                                    cq:styleId="1637771366910"
+                                    cq:styleLabel="Underline"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_28755684576960>
             </title>
             <experiencefragment jcr:primaryType="nt:unstructured">
                 <policy_header
@@ -212,13 +395,15 @@
             </experiencefragment>
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
+                    cq:styleDefaultElement="main"
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-11-21T14:19:35.360+05:30"
+                    jcr:lastModified="{Date}2021-11-23T13:23:22.877+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
                     components="[group:General,group:MPGI-5309 Sites Project - Content,/apps/mpgi-5309/components/form/container,group:MPGI-5309 Sites Project - Structure]"
+                    layout="responsiveGrid"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -246,12 +431,12 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-11-22T11:26:48.146+05:30"
+                    jcr:lastModified="{Date}2021-11-23T13:43:34.112+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/mpgi-5309/components/accordion,/apps/mpgi-5309/components/breadcrumb,/apps/mpgi-5309/components/button,/apps/mpgi-5309/components/carousel,/apps/mpgi-5309/components/container,/apps/mpgi-5309/components/contentfragment,/apps/mpgi-5309/components/contentfragmentlist,/apps/mpgi-5309/components/download,/apps/mpgi-5309/components/embed,/apps/mpgi-5309/components/experiencefragment,/apps/mpgi-5309/components/helloworld,/apps/mpgi-5309/components/image,/apps/mpgi-5309/components/list,/apps/mpgi-5309/components/pdfviewer,/apps/mpgi-5309/components/progressbar,/apps/mpgi-5309/components/separator,/apps/mpgi-5309/components/sharing,/apps/mpgi-5309/components/tabs,/apps/mpgi-5309/components/teaser,/apps/mpgi-5309/components/text,/apps/mpgi-5309/components/title,/apps/mpgi-5309/components/form/container]"
+                    components="[/apps/mpgi-5309/components/accordion,/apps/mpgi-5309/components/breadcrumb,/apps/mpgi-5309/components/button,/apps/mpgi-5309/components/byline,/apps/mpgi-5309/components/carousel,/apps/mpgi-5309/components/container,/apps/mpgi-5309/components/contentfragment,/apps/mpgi-5309/components/contentfragmentlist,/apps/mpgi-5309/components/download,/apps/mpgi-5309/components/embed,/apps/mpgi-5309/components/experiencefragment,/apps/mpgi-5309/components/helloworld,/apps/mpgi-5309/components/image,/apps/mpgi-5309/components/list,/apps/mpgi-5309/components/pdfviewer,/apps/mpgi-5309/components/progressbar,/apps/mpgi-5309/components/separator,/apps/mpgi-5309/components/sharing,/apps/mpgi-5309/components/tabs,/apps/mpgi-5309/components/teaser,/apps/mpgi-5309/components/text,/apps/mpgi-5309/components/title,/apps/mpgi-5309/components/form/container]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -280,12 +465,12 @@
                 <policy_649128221558427
                     cq:styleDefaultElement="main"
                     jcr:description="Sets a &lt;main> element on the page content area."
-                    jcr:lastModified="{Date}2021-11-22T11:16:56.733+05:30"
+                    jcr:lastModified="{Date}2021-11-22T19:39:47.086+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Main"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="group:General"
+                    components="[group:MPGI-5309 Sites Project - Content,/apps/mpgi-5309/components/form/container,/apps/mpgi-5309/components/languagenavigation,/apps/mpgi-5309/components/navigation,/apps/mpgi-5309/components/search]"
                     layout="responsiveGrid"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -324,7 +509,7 @@
                     </cq:authoring>
                 </policy_1575040440977>
                 <policy_8059664190685
-                    jcr:lastModified="{Date}2021-11-22T11:15:04.157+05:30"
+                    jcr:lastModified="{Date}2021-11-24T20:23:34.056+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Article Page - Side Rail"
@@ -361,6 +546,8 @@
             <page jcr:primaryType="nt:unstructured">
                 <policy
                     jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2021-11-24T20:31:29.054+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
@@ -371,7 +558,7 @@
             </page>
             <breadcrumb jcr:primaryType="nt:unstructured">
                 <policy_1637559384718
-                    jcr:lastModified="{Date}2021-11-22T11:07:03.347+05:30"
+                    jcr:lastModified="{Date}2021-11-22T19:59:26.570+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Article Page - Breadcrumb"

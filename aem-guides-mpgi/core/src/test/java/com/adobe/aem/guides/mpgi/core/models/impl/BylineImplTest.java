@@ -126,7 +126,7 @@ class BylineImplTest {
 
         Byline byline = ctx.request().adaptTo(Byline.class);
 
-        assertFalse(byline.isEmpty()); 
+        assertFalse(byline.isEmpty());
     }
 
 }

@@ -1,14 +1,4 @@
-mvn -B archetype:generate \
-    -D archetypeGroupId=com.adobe.aem \
-    -D archetypeArtifactId=aem-project-archetype \
-    -D archetypeVersion=26 \
-    -D appTitle="MPGI-5309 Sites Project" \
-    -D appId="mpgi-5309" \
-    -D groupId="com.adobe.aem.guides.mpgi" \
-    -D artifactId="aem-guides-mpgi" \
-    -D version="0.0.1-SNAPSHOT" \
-    -D aemVersion="cloud"
-    
+I'm using AEM Version 6.5.0 instead of cloud version hence this command.
     
 mvn -B archetype:generate \
     -D archetypeGroupId=com.adobe.aem \
