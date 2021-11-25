@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Mohammad Rafi</h1>
 <h3 align="center">A passionate Software Engineer from India</h3>
 
-- 🔭 I’m currently working on **Mock Site Project**
+- 🔭 This is my **Mock Site Project**
 
-- 🌱 I’m currently learning **React, Angular**
+- 🌱 I’m currently learning **Adobe Experience Manager**
 
 - 📫 How to reach me **mohammad.rafi@tothenew.com**
 
